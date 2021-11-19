@@ -2,8 +2,8 @@
 <html>
 
     <head>
-<style>
-    html {
+        <style>
+        html {
     background: #e6e9e9;
     background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 100%);
     -webkit-font-smoothing: antialiased;
@@ -40,6 +40,20 @@ h2 {
 
 a {
     color: #0083e8;
+    text-decoration:none;
+}
+
+#prevencao {
+    position: relative;
+    left: -68px;
+    bottom: -20px;
+}
+
+#tratamento {
+   position: relative;
+    left: -149px;
+    bottom: -40px;
+    margin-bottom: 10px; 
 }
 
 b, strong {
@@ -56,61 +70,35 @@ img {
     border: 10px solid rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     display: block;
-    margin: 1.3em auto;
+    margin: auto;
     max-width: 95%;
+    
 }
 
-#covid {
-    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
-    background: transparent;
-    border: 10px solid rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-    display: block;
-    margin: 1.3em auto;
-    max-width: 30%;
-}
-
-@keyframes colorize {
-    0% {
-        -webkit-filter: grayscale(100%);
-        filter: grayscale(100%);
-    }
-    100% {
-        -webkit-filter: grayscale(0%);
-        filter: grayscale(0%);
-    }
-}
-</style>
+        
+        </style>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>GAMIFICAÇÃO</title>
         <meta name="description" content="GAMIFICAÇÃO">
-        
+        <link rel="stylesheet" href="main.css">
     </head>
     <body>
 
     <h3>GAMIFICAÇÃO</h3>
-    <h2>Este é o seu guia!</h2>
-    
-    
-    
-    <!--
-        O QUE É O BRACKETS?
-    -->
         
-    <p>
+    <p style="margin-bottom: 40px">
         Um terrível vírus atacou nosso planeta e tem feito um estrago por onde passa! Os cientistas de todo o mundo estão em busca de vacinas definitivas para combate-lo. Vamos ajudar nesse combate! Conhecendo melhor nosso inimigo desenvolveremos armas contra ele! Iremos nos organizar em três estágios para esse conhece-lo melhor:  Contágio, Prevenção e Tratamento.
 	Clicando na opção desejada você terá informações verdadeiras sobre cada assunto relacionado ao vírus, onde ampliará seus conhecimentos. Em seguida, click no Avatar.
+        <a id="contagio" href="contagio.html" target="_blank">Contágio</a>
+        <a id="prevencao" href="prevencao.html" target="_blank">Prevenção</a>
+        <a id="tratamento" href="tratamento.html" target="_blank">Tratamento</a>
     </p>
-    <p>
-       Aperte o monstro para o CONTÁGIO, seringa para TRATAMENTO ou máscara para PREVENÇÃO</p>
-    
-    <!--
-        COMECE COM SEUS PRÓPRIOS ARQUIVOS
-    -->     
+    <p style="margin-top: 40px">
+       Aperte o monstro para o CONTÁGIO, seringa para TRATAMENTO ou máscara para PREVENÇÃO</p>     
     
     
-        <img src="screenshots/logo.png" />
+        <img src="screenshots/logo3.png" />
         
         
     
