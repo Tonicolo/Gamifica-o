@@ -109,7 +109,15 @@ img {
     max-width: 95%;
     
 }
-
+#cont {
+background: cyan;
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    z-index: 2;
+    left: 550px;
+    bottom: -380px
+}
         
         </style>
         <meta charset="utf-8">
@@ -134,7 +142,13 @@ img {
         Aperte o monstro para o <b><span style="color: red">CONTÁGIO</span></b>, seringa para <b><span style="color: green">TRATAMENTO</span></b> ou máscara para <b><span style="color: orange">PREVENÇÃO</span></b></p>     
     
     
-        <img src="screenshots/logo3.png" />
+        <img src="screenshots/logo3.png" usemap="#image-map">
+
+        <map name="image-map">
+    <area target="_blank" alt="" title="PERGUNTAS DO CONTÁGIO" href="https://quizizz.com/join?gc=28263185" coords="371,391,221,233" shape="rect">
+    <area target="_blank" alt="" title="PERGUNTAS DO TRATAMENTO" href="https://quizizz.com/join?gc=44090129" coords="167,380,23,246" shape="rect">
+    <area target="_blank" alt="" title="PERGUNTAS DA PREVENÇÃO" href="https://quizizz.com/join?gc=21086993" coords="409,241,590,396" shape="rect">
+        </map>
         
         
     
